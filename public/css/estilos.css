@@ -151,10 +151,28 @@ main{
     }
     nav {
         background-color: #FFF293;
-        padding: 20px;
+        padding: 10px;
         border-radius: 12px;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
         margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    /* Estilos para los enlaces dentro del nav en móvil: columna y ancho completo */
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 12px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: inherit;
+        background: transparent;
+        box-sizing: border-box;
+    }
+    nav a:hover,
+    nav a:focus {
+        background: rgba(0, 0, 0, 0.05);
     }
     main {
         background-color: rgba(255, 255, 255, 0.9);
