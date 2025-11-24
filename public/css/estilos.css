@@ -7,3 +7,14 @@
     font-family: 'Bonita';
     src: url(../font/Cute\ Cat.otf);
 }
+
+/* TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: darkseagreen;
+        margin: 0;
+        padding: 20px;
+        font-family: 'Pixel', Arial, sans-serif;
+    }
+}
